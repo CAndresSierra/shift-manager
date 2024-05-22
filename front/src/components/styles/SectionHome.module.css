@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.pSectionHome {
+  color: #e5e5e5;
+  width: 50%;
+  font-size: 1.3em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.imgSectionHome {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 9px 30px rgba(23, 139, 240, 0.471);
+}

@@ -1,0 +1,33 @@
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  width: 45em;
+}
+
+.a {
+  text-decoration: none;
+  color: #e5e5e5;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 22px;
+}
+
+.a:hover {
+  color: #165473;
+}
+
+.aHome {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: #165473;
+  transition: 0.5s;
+}
+
+.aHome:hover {
+  color: #1654738e;
+}

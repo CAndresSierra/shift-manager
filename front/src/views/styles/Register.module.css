@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7em;
+}
+
+.containerLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background: rgb(9, 8, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 8, 38, 1) 3%,
+    rgb(12, 28, 85) 100%
+  );
+  justify-content: space-between;
+  align-items: center;
+  padding: 0em 1.5em 1.5em 1.5em;
+  border-radius: 40px;
+  width: 480px;
+  height: auto;
+  box-shadow: 0px 9px 30px rgba(30, 7, 122, 0.813);
+  border: 2px solid #200870;
+  transition: 0.4s;
+}
+
+.form:hover {
+  border: 2px solid rgba(255, 255, 255, 0.813);
+  box-shadow: 0px 9px 30px rgba(51, 7, 122, 0.813);
+}
+
+.buttonRegister {
+  background-color: #e8e0e0;
+  border: 1px solid transparent;
+  color: #1b16a5;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  cursor: pointer;
+  border-radius: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border-color: #160be2;
+  transition: 0.25s;
+}
+
+.buttonRegister:hover {
+  box-shadow: 0px 9px 30px rgba(5, 9, 255, 0.609);
+  border-color: none;
+  padding: 10px 20px;
+}
+
+.inputRegister {
+  border-radius: 10px;
+  height: 35px;
+  text-decoration: none;
+  width: 300px;
+  border: none;
+  color: white;
+  transition: 0.5s;
+  background: rgb(84, 84, 94);
+  background: linear-gradient(90deg, rgb(52, 52, 57) 3%, rgb(12, 28, 85) 100%);
+}
+
+.inputRegister:focus {
+  box-shadow: 0px 0px 30px rgba(5, 72, 255, 0.307);
+  outline: none;
+  border: 2px solid white;
+}
+
+.label {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 0.3em;
+  font-size: 20px;
+  color: azure;
+}
+
+.h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: #eef3ee;
+  margin-bottom: 0.5em;
+}
+
+.pError {
+  color: rgb(201, 29, 29);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 14px;
+}

@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: linear-gradient(to left, #1d4a69, #1d1747);
+  border-radius: 20px;
+  margin-bottom: 1em;
+  box-shadow: 0px 0px 10px rgba(23, 139, 240, 0.471);
+  width: 1200px;
+}
+
+.h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.statusActive {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background-color: rgb(25, 135, 84);
+  line-height: 1;
+  border-radius: 0.375rem;
+  padding: 0.35em 0.65em 0.35em 0.65em;
+  margin: 0.9em 0.5em 0.9em 0.5em;
+}
+
+.statusCancelled {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background-color: rgb(220, 53, 69);
+  line-height: 1;
+  border-radius: 0.375rem;
+  padding: 0.35em 0.65em 0.35em 0.65em;
+  margin: 0.9em 0.5em 0.9em 0.5em;
+}
+
+.buttonCancel {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #fff;
+  display: inline-block;
+  align-items: center;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0.35em 0.65em 0.35em 0.65em;
+  margin: 0.9em 0.5em 0.9em 0.5em;
+  text-decoration: none;
+  background-color: rgb(71, 17, 17);
+  border-color: rgb(255, 0, 0);
+  border: 1px solid;
+  border-radius: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  transition: 0.25s;
+}
+
+.buttonCancel:hover {
+  box-shadow: 9px 9px 9px rgba(155, 9, 9, 0.854);
+  border-color: none;
+  padding: 10px 18px;
+}

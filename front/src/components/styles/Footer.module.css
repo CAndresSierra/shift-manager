@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 252, 252, 0.651);
+  margin-top: 9em;
+  height: 180px;
+}
+
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(8, 65, 156);
+}
+
+.containerIcons {
+  display: flex;
+  justify-content: space-around;
+  width: 190px;
+}
+
+.iconLinkdin {
+  font-size: 1.9em;
+  color: rgb(25, 81, 178);
+}
+
+.iconGithub {
+  font-size: 1.9em;
+  color: rgb(7, 7, 8);
+}
+
+.iconInstagram {
+  font-size: 1.9em;
+  background: linear-gradient(to right, #e1306c, #f77737);
+  border-radius: 20px;
+}
+
+.iconMail {
+  font-size: 1.9em;
+  color: rgba(186, 111, 12, 0.96);
+}

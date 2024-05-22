@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7em;
+}
+
+.containerLabelCreate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.formCreate {
+  display: flex;
+  flex-direction: column;
+  background: rgb(9, 8, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 8, 38, 1) 3%,
+    rgb(12, 28, 85) 100%
+  );
+  justify-content: space-between;
+  align-items: center;
+  padding: 0em 1.5em 1.5em 1.5em;
+  border-radius: 40px;
+  width: 400px;
+  border: 2px solid rgb(23, 16, 103);
+  height: auto;
+  box-shadow: 0 60px 80px rgba(0, 0, 0, 0.6), 0 45px 26px rgba(0, 0, 0, 0.14);
+}
+
+.pErrorCreate {
+  color: rgb(201, 29, 29);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.pPrincipal {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.buttonCreate {
+  background-color: #e8e0e0;
+  border: 1px solid transparent;
+  color: #1b16a5;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border-color: #160be2;
+  transition: 0.25s;
+}
+
+.buttonCreate:hover {
+  box-shadow: 0px 9px 30px rgba(5, 9, 255, 0.609);
+  border-color: none;
+  padding: 10px 20px;
+}
+
+.inputCreate {
+  border-radius: 10px;
+  height: 26px;
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  height: 36px;
+  width: 300px;
+  transition: 0.5s;
+  background: rgb(100, 100, 121);
+  background: linear-gradient(90deg, rgb(12, 12, 60) 3%, rgb(41, 8, 118) 100%);
+}
+
+.inputCreate:focus {
+  box-shadow: 0px 0px 30px rgba(5, 72, 255, 0.307);
+  outline: none;
+  border: 2px solid rgb(21, 112, 177);
+}
+
+.labelCreate {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 0.3em;
+  font-size: 18px;
+  color: azure;
+}
+
+.h2Create {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: #eef3ee;
+  margin-bottom: 0.5em;
+  font-size: 2em;
+}

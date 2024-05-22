@@ -1,0 +1,51 @@
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: auto;
+  padding: 50px;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgb(70, 68, 68);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+}
+
+.icono {
+  font-size: 100px;
+  color: rgb(211, 31, 31);
+}
+
+.buttonError {
+  background-color: #e8e0e0;
+  border: 1px solid transparent;
+  color: #a41818;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border-color: #ad1212;
+  transition: 0.25s;
+}
+
+.buttonError:hover {
+  box-shadow: 0px 9px 30px rgba(182, 9, 9, 0.609);
+  border-color: none;
+  padding: 10px 20px;
+}

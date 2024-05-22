@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 4em;
+}
+
+.containerAppointments {
+  width: auto;
+  margin-bottom: 4em;
+}
+
+.h1 {
+  font-size: 2.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #165473;
+  text-shadow: -1px -1px 0 white, -1px -1px 0 white, 1px 1px 0 white;
+}
+
+.h2 {
+  font-size: 2.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: darkgray;
+}

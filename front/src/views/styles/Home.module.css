@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1em 10em 10em 1em;
+}
+
+.h1Home {
+  font-size: 2.5em;
+  color: #165473;
+  text-shadow: -1px -1px 0 white, -1px -1px 0 white, 1px 1px 0 white;
+}

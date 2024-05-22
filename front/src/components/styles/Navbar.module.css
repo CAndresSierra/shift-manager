@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to left, #000000, #14213d);
+  height: 110px;
+}
+
+.imgNavbar {
+  width: 54px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.h1Navbar {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  color: #e5e5e5;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.containerTitleIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.faScissors {
+  color: #ff6347;
+  font-size: 35px;
+  margin-right: 10px;
+}
